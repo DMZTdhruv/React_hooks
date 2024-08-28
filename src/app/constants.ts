@@ -3,5 +3,6 @@ export const hooksLearnt = [
 	"useEffect",
 	"useMemo",
 	"useCallback",
+	"useContext",
 	"useTransition",
 ];

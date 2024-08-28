@@ -22,6 +22,7 @@ export default function RootLayout({
 				<ContextProvider>
 					<Theme>{children}</Theme>
 				</ContextProvider>
+			
 			</body>
 		</html>
 	);

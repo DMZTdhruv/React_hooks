@@ -9,7 +9,9 @@ const Theme = ({ children }: { children: React.ReactNode }) => {
 	const { darkTheme, setDarkTheme } = useContextProvider();
 	return (
 		<main
-			className={`${darkTheme ? "bg-neutral-950 text-white" : "bg-neutral-100 text-black"}`}
+			className={`min-h-screen flex flex-col items-center justify-center ${
+				darkTheme ? "bg-neutral-950 text-white" : "bg-neutral-100 text-black"
+			}`}
 		>
 			<div className="flex items-center fixed top-8 right-8 space-x-2">
 				<Switch
@@ -21,7 +23,9 @@ const Theme = ({ children }: { children: React.ReactNode }) => {
 				</Label>
 			</div>
 			<Sidebar />
-			{children}
+			<div className="flex flex-col  items-center justify-center space-y-4">
+				{children}
+			</div>
 		</main>
 	);
 };

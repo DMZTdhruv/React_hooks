@@ -17,6 +17,14 @@ export default function Home() {
 						</Link>
 					))}
 				</ul>
+				<a
+					href="https://github.com/DMZTdhruv"
+					target="_blank"
+					rel="noreferrer"
+					className="mt-4 w-fit text-neutral-700 hover:text-neutral-100"
+				>
+					Github repo.
+				</a>
 			</div>
 		</div>
 	);
