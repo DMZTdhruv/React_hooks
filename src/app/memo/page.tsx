@@ -1,7 +1,7 @@
 "use client";
 
+import { useContextProvider } from "@/context/ThemeContext";
 import React, { useState, useMemo, useEffect } from "react";
-import { useContextProvider } from "../context/page";
 
 const slowFunction = (num: number) => {
 	console.log("Callling slow function");

@@ -2,7 +2,7 @@
 
 import { Switch } from "@/components/ui/switch";
 import Sidebar from "./_components/sidebar";
-import { useContextProvider } from "./context/page";
+import { useContextProvider } from "@/context/ThemeContext";
 import { Label } from "@/components/ui/label";
 
 const Theme = ({ children }: { children: React.ReactNode }) => {

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { hooksLearnt } from "../constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useContextProvider } from "../context/page";
+import { useContextProvider } from "@/context/ThemeContext";
 
 const Sidebar = () => {
 	const [open, setOpen] = useState<boolean>(true);
